@@ -2,10 +2,11 @@
 * https://gitpitch.com/markydawn/karta-kotlin
 * https://gitpitch.com/markydawn/karta-kotlin?p=puzzles
 
+# About
+Fork of me and Jarle Hansens javaBin Kotlin intro talk. This one will be used on an internal confererence at work called Karta, and will have slightly less content due to having shorter time to present. To get (most of) the code examples used in the presentation as project you can run and experiment with, please refer to [the examples repo](https://github.com/jarlehansen/javabin-kotlin-examples).
+
 
 # Kotlin
----
-
 Java interoperability was one of the cornerstones of Kotlin. Interoperability is very important for introducing Kotlin gradually to an existing Java codebase. Even when writing a new project from scratch, one has to fit the language into the bigger picture of the platform with all of its libraries written in Java.
 
 The idea of Kotlin was concieved at Jetbrains in 2010. We needed full compatibility with the existing Java code. Kotlin 1.0 came out 5 years after the first commit to the repository.
