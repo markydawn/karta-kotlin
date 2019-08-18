@@ -108,6 +108,14 @@ public class Singleton {
 	// ... methods ...
 }
 ```
+---
+
+#### Kotlin
+```kotlin
+object Singleton {
+	// ... methods ... 
+}
+```
 
 ---
 @snap[span-100]
@@ -136,14 +144,6 @@ class ClassWithCompanion {
 }
 ```
 
----
-
-#### Kotlin
-```kotlin
-object Singleton {
-	// ... methods ... 
-}
-```
 ---
 @snap[span-100]
 ### DSL - domain specific languages
