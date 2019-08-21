@@ -159,6 +159,15 @@ open class SubclassMe
 * Many framworks including Spring needs open classes (plugins exist!)
 * Now back to live-coding!
 
+
+---
+@snap[span-100]
+### Clever casting - `is` and `as`
+@snapend
+
+TODO: some content and example! should probably show how cool this is!
+
+
 ---
 @snap[span-100]
 ### Singleton pattern - Java vs Kotlin
@@ -321,7 +330,7 @@ val crossProd = Vector(0.0, 1.0, 0.0)*Vector(1.0, 0.0, 0.0)
 
 ---
 
-#### Defintion using extension function
+#### Definition using extension function
 ```kotlin
 operator fun Float.times(vector : Vector) : Vector {
     return Vector(this*vector.x, this*vector.y, this*vector.z)
