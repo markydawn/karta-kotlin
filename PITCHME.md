@@ -410,16 +410,6 @@ File(".").walk().filter {
 @snapend
 
 ---
-
-@snap[span-100]
-### Oslo Kotlin meetup
-@snapend
-
----
-
-<iframe class="stretch" data-src="https://www.meetup.com/meetup-group-nWeRbyMu/"></iframe>
-
----
 @snap[span-100]
 ### Kotlin resources
 @snapend
