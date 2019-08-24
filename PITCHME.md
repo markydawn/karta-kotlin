@@ -165,8 +165,16 @@ open class SubclassMe
 ### Clever casting - `is` and `as`
 @snapend
 
-TODO: some content and example! should probably show how cool this is!
+```kotlin
+// Smart casts
+if (someObject is String) {
+	// no need for casting! someObject can be treated as a String in this scope!
+}
 
+// Unsafe casting
+val castedObject = someObject as String
+val castedObject2 = someObject as? String ?: "default string"
+```
 
 ---
 @snap[span-100]
@@ -394,7 +402,6 @@ File(".").walk().filter {
 [comment]: <> (Remove if we actually cover one of these)
 * Sealed classes
 * Pattern matching with `when`
-* Clever-casting with `is` and `as`
 * Init-blocks and multiple constructors
 * Standard OOP concepts that are similar to Java (interfaces, abstract classes and how they are used)
 
