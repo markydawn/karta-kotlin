@@ -7,12 +7,7 @@
 
 * History of Kotlin
 * Why Kotlin?
-* Code
-  * val / vars
-  * classes
-  * java interop
-  * nullability
-  * extension functions
+* Code - feature walkthrough
 * Summary
 * Bonus: Puzzles
 
