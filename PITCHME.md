@@ -9,13 +9,10 @@
 * Why Kotlin?
 * Code - feature walkthrough
 * Summary
-* Bonus: Puzzles
 
 ---?image=assets/img/kart1.png&size=65% auto
 
 ---?image=assets/img/kart2.png&size=65% auto
-
-----?video=https://video.twimg.com/tweet_video/DyUYJpkXQAAoWnE.mp4&loop=true&muted=true
 
 ---?image=assets/img/kotlin-github.jpg&size=contain
 ---?image=assets/img/kotlin-digi.jpg&size=contain
@@ -152,7 +149,7 @@ open class SubclassMe
 ---
 
 * Many framworks including Spring needs open classes (plugins exist!)
-* Now back to live-coding!
+* Let's live-code!
 
 
 ---
@@ -426,5 +423,3 @@ File(".").walk().filter {
 ![Programming Kotlin](assets/img/programming-kotlin.jpg)
 
 ---
-
-![Video](https://www.youtube.com/embed/hg8oYJ8Ez8s)
